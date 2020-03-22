@@ -1,7 +1,7 @@
 {
   "name": "--yes",
   "version": "1.0.0",
-  "description": "",
+  "description": "tarea de poo",
   "main": "index.js",
   "scripts": {
     "test": "resto de la configuracion"
@@ -16,4 +16,5 @@
     "url": "https://github.com/AdonayMorales29/TAREAPOO/issues"
   },
   "homepage": "https://github.com/AdonayMorales29/TAREAPOO#readme"
+
 }
