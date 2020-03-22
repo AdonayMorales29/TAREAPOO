@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tsc",
+    "tsc": "tsc",
     "dev": "ts-node-dev --respawn --transpileOnly ./src/app.ts"
   },
   "repository": {
@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/AdonayMorales29/TAREAPOO#readme",
   "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "mongoose": "^5.9.5"
   }
 }
