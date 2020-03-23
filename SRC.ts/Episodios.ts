@@ -42,7 +42,7 @@ export const CreateEpisodios = async function(name: string, season: number, Dura
 
 export function getEpisodios(_name: string):Promise<any>{
     return new Promise<any>( resolve => {
-        E.findOne({ name: _name}, (err:any,data:any) => {
+        Episodios.findOne({ name: _name}, (err:any,data:any) => {
             if(err){
                 resolve({});
             }else{
