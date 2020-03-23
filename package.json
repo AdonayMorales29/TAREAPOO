@@ -1,5 +1,5 @@
 {
-  "name": "TAREAPOO",
+  "name": "3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -23,6 +23,8 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "mongoose": "^5.9.5"
+    "@types/mongoose": "^5.7.7",
+    "mongoose": "^5.9.5",
+    "ts-mongoose": "0.0.21"
   }
 }
