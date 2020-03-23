@@ -7,7 +7,7 @@ export interface IEpisodios extends mongoose.Document {
     season:number;
     Duracion_Time:string;
     comentary:string;
-    staf_Member:number;
+    staf_Member:
 }
 
 const EpisodiosSchema = new mongoose.Schema({

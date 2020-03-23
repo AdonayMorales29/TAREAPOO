@@ -2,7 +2,7 @@ import mongoose = require("mongoose");
 import {IEpisodios, getEpisodios} from "./Episodios"
 import {connectMongoDB} from "./helpers"
 
-interface IStaf extends mongoose.Document { 
+export interface IStaf extends mongoose.Document { 
     id:number;
     name: string;
     roll_type:string;
