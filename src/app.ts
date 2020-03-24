@@ -1,8 +1,10 @@
+
 import {CreateEpisodios} from "./Episodios";
 import {CreateStaf} from "./Staf"
 
 
 
-CreateEpisodios("Nombre del Episodio",1,"23:00", "Comentario del Episodio",1),
+CreateEpisodios("Eduardo Flores","Picachu",1,"23:00","Me gusto El Anime",""),
 
-CreateEpisodios("Picachu",1,"23:00", "Excelente capitulo", 1)
+CreateStaf("Eduardo Flores","Administrativo","eduardo" )
+
